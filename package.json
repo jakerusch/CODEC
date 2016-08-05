@@ -1,0 +1,79 @@
+{
+    "author": "jacob.rusch@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "codec",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "CODEC",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "KEY_CITY": 0,
+            "KEY_TEMP": 1,
+            "KEY_WEATHER": 2
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/MENU_FONT",
+                    "name": "MENU_FONT_12",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/MENU_FONT",
+                    "name": "MENU_FONT_24",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9.]",
+                    "file": "fonts/DS_DIGITAL_FONT",
+                    "name": "DS_DIGITAL_FONT_36",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9.]",
+                    "file": "fonts/DIGITAL_FONT",
+                    "name": "DIGITAL_FONT_24",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9.]",
+                    "file": "fonts/DIGITAL_FONT",
+                    "name": "DIGITAL_FONT_36",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9.]",
+                    "file": "fonts/DIGITAL_FONT",
+                    "name": "DIGITAL_FONT_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9.]",
+                    "file": "fonts/DIGITAL_FONT",
+                    "name": "DIGITAL_FONT_60",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite"
+        ],
+        "uuid": "2b3181a0-ca83-4d26-97d7-13a46b70a8ba",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
